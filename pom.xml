@@ -16,7 +16,7 @@
         <repository>
             <id>local-rep</id>
             <name>local repository</name>
-            <url>file:\\${project.basedir}\lib</url>
+            <url>file:/${project.basedir}/lib</url>
         </repository>
     </repositories>
 
@@ -72,7 +72,7 @@
                 <version>2.5.1</version>
                 <configuration>
                     <outputDirectory>
-                        ${project.build.directory}\lib\
+                        ${project.build.directory}/lib/
                     </outputDirectory>
                 </configuration>
                 <executions>
